@@ -233,6 +233,7 @@ body{
     text-align: center;
     gap: 30px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .section4-text1{
@@ -435,6 +436,7 @@ body{
     background: #f9f9f9;
     margin-top: 40px;
     padding-bottom: 20px;
+    padding-top: 63px;
 }
 
 .footer-heading img{
@@ -449,9 +451,10 @@ body{
 .footer-paragraph a:hover,
 .footer-paragraph a,
 .footer-paragraph{
-    font-size: 13px;
+    font-size: 18px;
     color: #000;
     font-family: MuseoSans300;
+    padding-top: 10px;
 }
 
 .text-underline{
@@ -461,6 +464,7 @@ body{
 .footer-seciton1{
     display: flex;
     gap: 25px;
+    padding-bottom: 20px;
 }
 
 .peo-img{
@@ -474,7 +478,13 @@ body{
     gap: 20px;
 }
 
+.footer-section .container{
+    max-width: 1600px;
+}
 
+.arrow1 img{
+    width: 24px;
+}
 @media screen and (max-width:767px) {
 
 .peo-img img{
@@ -560,7 +570,21 @@ body{
     gap: 0px;
 }
 
-.peo-img {
-    top: 400%;
+.mob-flex-footer{
+    display: flex;
+    gap: 60px;
+}
+
+.footer-section .container {
+    max-width: 344px;
+}
+
+
+.footer-paragraph{
+    font-size: 14px;
+}
+
+.section2-box{
+    padding: 30px 10px;
 }
 }
