@@ -451,7 +451,7 @@ body{
 .footer-paragraph a:hover,
 .footer-paragraph a,
 .footer-paragraph{
-    font-size: 18px;
+    font-size: 14px;
     color: #000;
     font-family: MuseoSans300;
     padding-top: 10px;
@@ -478,13 +478,6 @@ body{
     gap: 20px;
 }
 
-.footer-section .container{
-    max-width: 1600px;
-}
-
-.arrow1 img{
-    width: 24px;
-}
 @media screen and (max-width:767px) {
 
 .peo-img img{
