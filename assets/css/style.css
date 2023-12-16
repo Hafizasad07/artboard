@@ -110,13 +110,14 @@ body{
 }
 
 .hero-section-text1{
-    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.42 ));
+    /* filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.42 )); */
     font-family: MuseoSans300;
     font-size: 40px;
     font-weight: normal;
     line-height: 62px;
     text-align: center;
     color: #FFFFFF;
+    text-shadow: 4px 10px 16px #000000F7;
 }
 
 .hero-section-text2{
@@ -234,7 +235,16 @@ body{
 }
 
 .text-E00085{
-    color: #E00085;
+    color: #96151D;
+    font-weight: bold;
+}
+
+.text-25272b a:hover,
+.text-25272b a,
+.text-25272b{
+    color: #25272b;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .section3-call img{
